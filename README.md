@@ -12,6 +12,13 @@
 ## Technologies Used
 [React](https://es.reactjs.org/).
 
+<ol>
+  <li>[React](https://es.reactjs.org/)</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+</ol>
+
 <h2>Installation</h2>
 <ul>
 <li>Download the project or clone in VSCode</li>
