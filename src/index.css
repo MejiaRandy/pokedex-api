@@ -22,7 +22,7 @@
 	--color-shadow: #7b62a3;
 	--color-unknow: #757575;
 
-	--color-primary: #006d77;
+	--color-primary: #770032;
 	--color-primary-hover: #83c5be;
 }
 
@@ -343,7 +343,6 @@ Styles of Pokemon Single Page
 .container-info-pokemon {
 	display: flex;
 	flex-direction: column;
-
 	order: 1;
 	flex: 1;
 }
@@ -356,7 +355,6 @@ Styles of Pokemon Single Page
 .info-pokemon {
 	display: flex;
 	justify-content: space-between;
-
 	margin-top: 20px;
 }
 
@@ -374,8 +372,12 @@ Styles of Pokemon Single Page
 /* Stats */
 .container-stats {
 	display: flex;
-	gap: 50px;
-	align-items: center;
+	gap: 25px;
+	flex-direction: column;
+}
+
+.container-stats h1{
+	text-align: center;
 }
 
 .stats {

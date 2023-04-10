@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Loader } from '../components';
 import { PokemonContext } from '../context/PokemonContext';
-import { primerMayuscula } from '../helper/helper';
+import { firstWordToCaps } from '../common/firstWordToCaps';
 
 export const PokemonPage = () => {
 	const { getPokemonByID } = useContext(PokemonContext);
@@ -38,7 +38,7 @@ export const PokemonPage = () => {
 						</div>
 
 						<div className='container-info-pokemon'>
-							<h1>{primerMayuscula(pokemon.name)}</h1>
+							<h1>{firstWordToCaps(pokemon.name)}</h1>
 							<div className='card-types info-pokemon-type'>
 								{pokemon.types.map(type => (
 									<span key={type.type.name} className={`${type.type.name}`}>
