@@ -10,11 +10,12 @@
 </ul>
 
 ## Technologies Used
-[React](https://es.reactjs.org/).
-
-[1]: [React](https://es.reactjs.org/).
-[2]: 
-[3]:
+<ul>
+	<li><a href="https://reactjs.org/">React</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
+	<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
+</ul> 
 
 <h2>Installation</h2>
 <ul>
