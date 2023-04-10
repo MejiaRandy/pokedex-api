@@ -20,13 +20,6 @@ export const Navigation = () => {
 	return (
 		<>
 			<header className='container'>
-				<Link to='/' className='logo'>
-					<img
-						src='' // The URL is not working for assets, don't know why..
-						alt='Logo Pokedex'
-					/>
-				</Link>
-
 				<form onSubmit={onSearchSubmit}>
 					<div className='form-group'>
 						<svg
