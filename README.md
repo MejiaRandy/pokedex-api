@@ -1,31 +1,27 @@
-**Hello There!**
+<h1>Pokemon App</h1>
+<p>This is an interactive Pokemon App that pulls the information from the api Pokedex appi from https://pokeapi.co/</p>
 
-The Participants of this project are:
+<h2>Participants</h2>
+<ul>
+	<li>Julián Antonio Ruiz Piña, Mat: 2021-2201</li>
+	<li>Joan Almonte Tejeda, Mat: 2020-10752</li>
+	<li>Darwing de León, Mat: 2019-8892</li>
+	<li>Randy Alexander Mejía Moscoso, Mat: 2020-10307</li>
+</ul>
 
-Julián Antonio Ruiz Piña, Mat: 2021-2201
+<h2>Technologies Used</h2>
+<ul>
+	<li>React</li>
+</ul>
 
-Joan Almonte Tejeda, Mat: 2020-10752
-
-Darwing de León, Mat: 2019-8892
-
-Randy Alexander Mejía Moscoso, Mat: 2020-10307
-
-
-Is a pleasure for all us to have created this great project with the Frameworks/Languages:
-
-- React
-
-- CSS
-
-
-***HOW TO INSTALL AND RUN***
-
-
-
-
-
-
+<h2>Installation</h2>
+<ul>
+<li>Download the project or clone in VSCode</li>
+<li>Open the project terminal</li>
+<li>Execute: npm i vite</li>
+<li>Once installed, execute: npm dev run</li>
+<li>Open your localhost:3000</li>
+</ul>
+<p>Once the steps are followed, the changes will be live shown in the local server</p>
 
 
-# pokedex-api
-My first API created with help of other devs! :)
