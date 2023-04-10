@@ -1,4 +1,5 @@
-Hello There!
+**Hello There!**
+
 The Participants of this project are:
 
 Julián Antonio Ruiz Piña, Mat: 2021-2201
@@ -18,6 +19,7 @@ Is a pleasure for all us to have created this great project with the Frameworks/
 
 
 ***HOW TO INSTALL AND RUN***
+
 
 
 
