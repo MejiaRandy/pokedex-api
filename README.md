@@ -9,10 +9,8 @@
 	<li>Randy Alexander Mejía Moscoso, Mat: 2020-10307</li>
 </ul>
 
-<h2>Technologies Used</h2>
-<ul>
-	<li>React</li>
-</ul>
+## Technologies Used
+[React](https://es.reactjs.org/).
 
 <h2>Installation</h2>
 <ul>
