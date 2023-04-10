@@ -1,149 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
 
 :root {
-	--color-fire: #ff7402;
-	--color-grass: #9bcc50;
-	--color-steel: #9eb7b8;
-	--color-water: #4592c4;
-	--color-psychic: #f366b9;
-	--color-ground: #ab9842;
-	--color-ice: #51c4e7;
-	--color-flying: #3dc7ef;
-	--color-ghost: #4d5b64;
-	--color-normal: #a4acaf;
-	--color-poison: #7e0058;
-	--color-rock: #a38c21;
-	--color-fighting: #d56723;
-	--color-dark: #707070;
-	--color-bug: #729f3f;
-	--color-dragon: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
-	--color-electric: #bba909;
-	--color-fairy: #fdb9e9;
-	--color-shadow: #7b62a3;
-	--color-unknow: #757575;
+    --color-fire: #FF4040;
+    --color-grass: #8CD851;
+    --color-steel: #B8B8D0;
+    --color-water: #3399FF;
+    --color-psychic: #FF66CC;
+    --color-ground: #E2BF65;
+    --color-ice: #51C4E7;
+    --color-flying: #A890F0;
+    --color-ghost: #6060B2;
+    --color-normal: #A8A878;
+    --color-poison: #A040A0;
+    --color-rock: #B8A038;
+    --color-fighting: #C03028;
+    --color-dark: #705848;
+    --color-bug: #A8B820;
+    --color-dragon: #7038F8;
+    --color-electric: #F8D030;
+    --color-fairy: #EE99AC;
+    --color-shadow: #5A5AA4;
+    --color-unknown: #68A090;
 
-	--color-primary: #006d77;
-	--color-primary-hover: #83c5be;
+    --color-primary: #F5AC78;
+    --color-primary-hover: #F08030;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-	font-family: 'Montserrat';
+    font-family: 'Montserrat';
+    background-color: #f2f2f2;
 }
-/* Globales */
+
+/* Global */
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Header */
 header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-	padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
 }
 
 .logo img {
-	width: 150px;
+    width: 150px;
 }
 
 header form {
-	display: flex;
-	align-items: center;
-
-	gap: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .form-group {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-
-	border: 1px solid #555;
-	padding: 15px 20px;
-	border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #555;
+    padding: 15px 20px;
+    border-radius: 25px;
 }
 
 .form-group input {
-	/* padding: 15px 30px; */
-	font-family: inherit;
-	width: 300px;
-	border: none;
-	outline: none;
-	font-size: 15px;
+    font-family: inherit;
+    width: 300px;
+    border: none;
+    outline: none;
+    font-size: 15px;
 }
 
 .icon-search {
-	width: 20px;
-	height: 20px;
-	stroke: #555;
+    width: 20px;
+    height: 20px;
+    fill: #fff;
 }
 
 .btn-search {
-	border: none;
-	outline: none;
-	border-radius: 25px;
-	padding: 15px 30px;
-	font-family: inherit;
-	color: #fff;
-	background-color: var(--color-primary);
-	cursor: pointer;
-	font-weight: 500;
-	letter-spacing: 2px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-family: inherit;
+    color: #fff;
+    background-color: var(--color-primary);
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 2px;
 }
 
 .btn-search:hover {
-	background-color: var(--color-primary-hover);
-	color: #000;
+    background-color: var(--color-primary-hover);
+    color: #000;
 }
 
 /* Btn Filter */
 .container-filter {
-	display: flex;
+    display: flex;
 }
 
 .icon-filter {
-	display: flex;
-	align-items: center;
-	gap: 15px;
-
-	margin-bottom: 20px;
-	cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .icon-filter .icon {
-	width: 30px;
-	height: 30px;
-	stroke: #555;
+    width: 30px;
+    height: 30px;
+    fill: #555;
 }
 
 /* Card List Pokemon */
 .card-list-pokemon {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
 .card-pokemon {
-	cursor: pointer;
-	text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .card-img {
-	background-color: #f2f2f2;
-
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 5px;
-	height: 250px;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+height: 250px;
+position: relative;
+overflow: hidden;
+
 }
 
 .card-img img {
@@ -304,17 +302,14 @@ Styles of Pokemon Single Page
 .main-pokemon {
 	display: flex;
 	flex-direction: column;
-
 	margin-top: 100px;
 	margin-bottom: 50px;
 }
 
 .header-main-pokemon {
 	margin-top: 20px;
-
 	display: flex;
 	align-items: center;
-
 	position: relative;
 }
 
@@ -325,7 +320,8 @@ Styles of Pokemon Single Page
 
 	font-size: 200px;
 	font-weight: 700;
-	color: var(--color-primary-hover);
+	color: #F44336;
+
 }
 
 .container-img-pokemon {
@@ -333,12 +329,13 @@ Styles of Pokemon Single Page
 	flex: 1;
 	padding: 25px 25px 25px 0;
 	height: 400px;
-}
-
-.container-img-pokemon img {
+	}
+	
+	.container-img-pokemon img {
 	height: 100%;
 	width: 100%;
-}
+	}
+
 
 .container-info-pokemon {
 	display: flex;
@@ -348,79 +345,94 @@ Styles of Pokemon Single Page
 	flex: 1;
 }
 
-.container-info-pokemon h1 {
-	text-align: right;
-	font-size: 60px;
+.container-info-pokemon {
+	display: flex;
+	flex-direction: column;
+	
+	order: 1;
+	flex: 1;
 }
 
 .info-pokemon {
 	display: flex;
-	justify-content: space-between;
+	justify-content: spacbetweene-;
 
 	margin-top: 20px;
+}
+
+.container-info-pokemon h1 {
+	font-size: 60px;
+	}
+	
+.info-pokemon {
+	display: flex;
+	margin-top: 20px;
+
 }
 
 .group-info{
 	display: flex;
 	flex-direction: column;
+	padding: 10px;
 	gap: 10px;
-}
-
-.group-info p {
+	}
+	
+	.group-info p {
 	font-weight: 700;
 	font-size: 20px;
-}
+	}
 
 /* Stats */
 .container-stats {
-	display: flex;
-	gap: 50px;
+	flex-direction: column;
 	align-items: center;
-}
-
-.stats {
+	margin-top: 40px;
+	gap: 50px;
+	}
+	
+	.stats {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
 	flex: 1;
-}
-
-.stat-group {
+	}
+	
+	.stat-group {
 	display: flex;
 	align-items: center;
 	gap: 20px;
-}
-
-.stat-group span {
+	}
+	
+	.stat-group span {
 	flex: 20%;
 	font-weight: 500;
 	font-size: 18px;
-}
-
-.progress-bar {
+	}
+	
+	.progress-bar {
 	width: 100%;
 	height: 30px;
-	background-color: var(--color-primary);
+	background-color: #F44336;
 	border-radius: 10px;
-}
+	}
 /* Search Page */
 
 .p-search{
 	margin-bottom: 30px;
 	font-size: 22px;
-}
-
-.p-search span{
+	}
+	
+	.p-search span{
 	font-weight: 700;
-}
-
-/* Loader */
-
-.container-loader{
+	}
+	
+	/* Loader */
+	
+	.container-loader{
 	display: flex;
 	justify-content: center;
 	margin: 200px 0;
-}
+	}
 
 /* Btn Load More */
 
@@ -436,13 +448,13 @@ Styles of Pokemon Single Page
 	border: none;
 	padding: 15px 40px;
 	font-family: inherit;
-	background-color: var(--color-primary);
+	background-color: #F44336;
 	color: #fff;
 	border-radius: 10px;
 	cursor: pointer;
-}
-
-.btn-load-more:hover{
-	background-color: var(--color-primary-hover);
+	}
+	
+	.btn-load-more:hover{
+	background-color: #FFC107;
 	color: #000;
-}
+	}
