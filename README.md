@@ -19,10 +19,10 @@
 
 <h2>Installation</h2>
 <ul>
-<li>Download the project or clone in VSCode</li>
-<li>Open the project terminal</li>
-<li>Execute: npm i vite</li>
-<li>Once installed, execute: npm dev run</li>
-<li>Open your localhost:3000</li>
+<li>Download the project or clone in VSCode.</li>
+<li>Open the project terminal.</li>
+<li>In the project terminal write the following: "npm i vite". This will install the packets needed to open a local server.</li>
+<li>Once installed the resource needed, write the next command: "npm dev run". It will give you access to the project in a local server.</li>
+<li>Open your localhost by opening the web browser and writting "Localhost:3000" in the search bar.</li>
 </ul>
-<p>Once the steps are followed, the changes will be live shown in the local server</p>
+<p>Once the steps are followed, the changes will be live shown in the local server.</p>
